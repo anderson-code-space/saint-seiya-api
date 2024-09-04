@@ -1,0 +1,28 @@
+﻿id,group,class,classSingular,name
+1,pallas-gods,Gods,God,Gods
+,,,,
+1,pallas-pallasite-soldiers,Pallasites,Pallasite,Pallasite Soldiers
+,,,,
+1,pallas-weapon-firstclass,Pallasites,Pallasite,Sword of Creation
+2,pallas-weapon-firstclass,Pallasites,Pallasite,Sword of Destruction
+3,pallas-weapon-firstclass,Pallasites,Pallasite,Sword of Thunder
+4,pallas-weapon-firstclass,Pallasites,Pallasite,Sword of War
+,,,,
+1,pallas-weapon-secondclass,Pallasites,Pallasite,Chakram
+2,pallas-weapon-secondclass,Pallasites,Pallasite,Daggers
+3,pallas-weapon-secondclass,Pallasites,Pallasite,Gauntlet
+4,pallas-weapon-secondclass,Pallasites,Pallasite,Staff
+5,pallas-weapon-secondclass,Pallasites,Pallasite,Whip
+,,,,
+1,pallas-unknown-secondclass,Pallasites,Pallasite,Unknown Weapon
+,,,,
+1,pallas-weapon-thirdclass,Pallasites,Pallasite,Claw
+2,pallas-weapon-thirdclass,Pallasites,Pallasite,Club
+3,pallas-weapon-thirdclass,Pallasites,Pallasite,Deadly Scythe
+4,pallas-weapon-thirdclass,Pallasites,Pallasite,Hammer
+5,pallas-weapon-thirdclass,Pallasites,Pallasite,Morning Star
+6,pallas-weapon-thirdclass,Pallasites,Pallasite,Servant
+7,pallas-weapon-thirdclass,Pallasites,Pallasite,Spear
+8,pallas-weapon-thirdclass,Pallasites,Pallasite,Triple Rod
+,,,,
+1,pallas-unknown-unknownclass,Pallasites,Pallasite,Unknown Weapon Unknown Class
