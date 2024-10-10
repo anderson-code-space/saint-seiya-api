@@ -23,7 +23,7 @@ const getCollectionData = async (request, response, collectionType, totalKey, pa
 
 
 const getCollectionItem = async (request, response, collectionType, itemName) => {
-    const collections = await Content.getCollections();
+    const collections = await getCollections();
 
     if (!collections) return response.status(204).send();
 

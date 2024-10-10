@@ -1,6 +1,12 @@
 const express = require('express');
 
-const ArtistsController = require('./controllers/Artists.js');
+const {
+    getArtists
+    , getArtist
+    , createArtist
+    , updateArtist
+    , deleteArtist } = require('./controllers/Artists.js');
+
 const DebutsController = require('./controllers/Debuts.js');
 const CharactersController = require('./controllers/Characters.js');
 const ClassesController = require('./controllers/Classes.js');
@@ -10,9 +16,14 @@ const { paginationMiddleware } = require('./middlewares/paginationMiddleware.js'
 
 const routes = express.Router();
 
-routes.get('/artists', paginationMiddleware, ArtistsController.getArtists);
+// Artists
 
-routes.get('/artist/:id', ArtistsController.getArtist);
+routes.get('/artists', paginationMiddleware, getArtists);
+routes.get('/artist/:id', getArtist);
+routes.post('/artist/create', createArtist);
+routes.put('/artist/:id', updateArtist);
+routes.delete('/artist/:id', deleteArtist);
+
 
 routes.get('/debuts', paginationMiddleware, DebutsController.getDebuts);
 

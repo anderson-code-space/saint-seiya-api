@@ -23,6 +23,34 @@ http://<your-domain>/
   - `size`: (optional) The number of items per page.
 - **Response**: JSON array of artist objects.
 
+> GET Artist
+```sh
+curl -X GET http://127.0.0.1:3000/artists
+
+```
+
+> POST Artist : 
+```sh
+curl -X POST http://127.0.0.1:3000/artist/create \
+-H "Content-Type: application/json" \
+-d '{"name": "Jane Doe", "site": "https://www.example.com/users/jane/"}'
+```
+
+> DELETE Artist : 
+```sh
+curl -X DELETE http://127.0.0.1:3000/artist/<number>
+```
+
+> PUT Artist : 
+```sh
+curl -X PUT http://127.0.0.1:3000/artist/<number> \
+-H "Content-Type: application/json" \
+-d '{"name": "Update Doe", "site": "https://www.update.com/users/update/"}'
+```
+
+
+
+
 #### 2. Get Artist by ID
 - **Endpoint**: `GET /artist/:id`
 - **Description**: Retrieves details of a specific artist by their ID.
